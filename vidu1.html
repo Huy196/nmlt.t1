@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Hiển thị kết quả qa thẻ html-->
+    <div id="huy"></div>
+    <button type="button" onclick="shoMessage();">HTML</button>
+    <script>
+        function shoMessage(){
+            document.getElementById('huy').innerHTML = 'Mày nhìn cái chó j';
+        }
+    </script>
+    
+    <!--Hiển thị qua hàm alert-->
+    <button type="button" onclick="tram();">alret</button>
+    <script>
+        function tram(){
+            alert('Mày nhìn cái chó j') 
+        }
+    </script>
+
+    <!--hiển thị qua hành document.write-->
+    <button type="button" onclick="anh();">Document.write</button>
+    <script>
+        function anh(){
+            document.write('Mày nhìn cái chó j');
+        }
+    </script>
+
+    <!--hiển thị qua hàm console.log-->
+    <button type="button" onclick="hanh();">console.log</button>
+    <script>
+        function hanh(){
+            console.log('Mày nhín cái chó j');
+            }
+    </script>
+</body>
+</html>
